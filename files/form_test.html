@@ -1,0 +1,68 @@
+ <h2>Add at server</h2>
+              <ul style="display: none;" data-bind="foreach: rows_newOne, visible:true ">
+                <li >
+                     <input data-bind="value: title" required pattern="@"  />
+                      <input data-bind="value: number"   />
+                </li>
+               
+              </ul>
+              
+               <a href='#' data-bind="click: function() { addData('rows');} ">Add New At Server</a>
+              <hr/>
+              
+              <h2>Search from server</h2>
+              <ul style="display: none;" data-bind="foreach: rows_search, visible:true ">
+                <li >
+                     <input data-bind="value: title" />
+                      <input data-bind="value: number" />
+                </li>
+               
+              </ul>
+              
+               <a href='#' data-bind="click: function() { searchData('rows');} ">Search At Server</a>
+               
+               <hr/>
+             <h2>Add at page</h2>
+              <ul style="display: none;" data-bind="foreach: rows_new, visible:true ">
+                <li >
+                     <input data-bind="value: title" />
+                      <input data-bind="value: number" />
+                </li>
+               
+              </ul>
+              
+               <a href='#' data-bind="click: function() { addNewRow('rows');} ">Add New</a>
+                
+             <hr/>
+              <ul style="display: none;" data-bind="foreach: rows_filterRow, visible:true ">
+                <li >
+                     <input data-bind="value: title" />
+                      <input data-bind="value: number" />
+                </li>
+              </ul>
+              
+               <a href='#' data-bind="click: function() {filterMyData('rows') ;} ">Filter</a>
+                
+              <ul style="display: none;" data-bind="foreach: rows, visible:true ">
+                <li data-bind="visible:isOnPage()">
+                <button data-bind="click: function(data){ [@root@].remove('rows',data)} ">Delete</button>
+                     <textarea data-bind="wysiwyg: title" ></textarea>
+                 <p data-bind="validationMessage: title"></p>     
+                      <input data-bind="value: number"  />
+                    
+                  <input data-bind="datepicker: mydate " />
+                 <p data-bind="validationMessage: mydate"></p>  
+                 <input  type='file' data-bind="pekeUpload: filename " />
+                 <input data-bind="value: filename " />
+                 
+                 <button data-bind="click: function(data){ [@root@].saveItemData('rows',data)} ">Save</button>
+                </li>
+              </ul>
+              
+              <ul style="display: none;" data-bind="foreach: rowsmypages(), visible:true ">
+             <li>
+                <a href='#' data-bind="click: function() {[@root@].changePage('rows',num()) ;} ">Page <span data-bind='text:num'>  -- </span></a> 
+                </li>
+              </ul>
+              
+               <a href='#' data-bind="click: function() {saveData('rows') ;} ">Save Changes</a>   

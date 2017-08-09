@@ -1,0 +1,49 @@
+<div class="DM_AdminPanel">
+<div class="main_page">
+<div class="plugin_title">Portalic</div>
+<div class="left_column" style="width:70%;">
+<div class="setting_box">
+<div class="box_title">[@translate@]Save Templates[@endtranslate@]</div>
+<div class="box_body">
+
+  [@DM_GetEntitiesForTemplate@]
+  <div class="custom_input_box">
+<p>
+  
+  [@translate@]Template Name[@endtranslate@]:</p> <input type="text" name="templateNameTxt" id="templateNameTxt" value=""/>
+  </div>
+  
+  <br/>
+ 
+ <input type="button"   onClick="return CreateTemplate()" value="[@translate@]Create Template[@endtranslate@]" /> 
+
+  <div id="QueryResult"></div>
+  
+ 
+    
+
+</div>
+</div>
+
+
+<div class="setting_box">
+<div class="box_title">[@translate@]Load Templates[@endtranslate@]</div>
+<div class="box_body">
+ <strong>[@translate@] This module is still beta version, so please backup your site before loading any template. Also check these parameters. [@endtranslate@] </strong><br/>
+ <ol>
+ <li> [@translate@]You didn't load this template already. Template suppose to be loaded just once[@endtranslate@]  </li>
+ <li> [@translate@]Zip file name suppose to be as template name without any digits. So businessdirectory.zip is ok, biznesdirectory1.zip is not ok.[@endtranslate@] </li>
+ <li> [@translate@]You don't have tables with the same names, otherwise you may damage your data. [@endtranslate@] </li>
+ <li> [@translate@]If you have downloaded template from our site, check out all technical requirements.[@endtranslate@] </li>
+ </ol>
+<input id="templatefile" type="file" name="templatefile" />
+<p>[@translate@]Template File[@endtranslate@]:</p> <input type="text" style="width: 500px;" name="templateFileTxt" id="templateFileTxt" value=""/>
+ <input type="button"   onClick="return LoadTemplate()" value="[@translate@]Load Template[@endtranslate@]" /> 
+ 
+
+ <div id="QueryResult2"></div>
+</div>
+</div>
+
+</div>
+</div>

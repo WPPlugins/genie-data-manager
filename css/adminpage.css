@@ -1,0 +1,23 @@
+.DM_myTable
+{
+    display:table;
+}
+.DM_myRow
+{
+    display:table-row;
+}
+.DM_myCell
+{
+    display:table-cell;
+    max-width: 300px;
+    vertical-align: middle;
+    width: 300px;
+}
+.DM_myCell_General
+{
+    display:table-cell;
+    vertical-align: top;
+    padding-right:15px;
+}
+
+    

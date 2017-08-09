@@ -1,0 +1,7 @@
+type&name&parentuniqueid&uniqueid&formname
+menu&Portalic&&DM_Main&main
+submenu&Portalic Management&DM_Main&DM_DesignForm&Design Form
+submenu&Localization&DM_Main&DM_Translations&Translations
+submenu&Template Management&DM_Main&DM_TemplateManagement&TemplateManagement
+subpage&System Manager&&DM_SystemManagement&System_Management
+

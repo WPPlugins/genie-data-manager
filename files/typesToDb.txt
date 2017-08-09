@@ -1,0 +1,8 @@
+type&dbtype
+double&float
+integer&bigint
+string&varchar(255)  COLLATE utf8_unicode_ci
+text&Text  COLLATE utf8_unicode_ci
+boolean&bit
+date&DATE
+boolean&bit(1)

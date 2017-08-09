@@ -1,0 +1,6 @@
+type&function&Text&formSufix&funcParameter
+group&[@root@].saveItemData&Save Changes&&data
+new&[@root@].addNewRow&Add New&_new&
+search&[@root@].searchData&Search&_search&
+filterRow&[@root@].filterMyData&Filter&_filterRow&
+newOne&[@root@].addData&Add New&_newOne&

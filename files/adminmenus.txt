@@ -1,0 +1,8 @@
+type&name&parentuniqueid&uniqueid&formname
+menu&Genie&&DM_Main&main
+submenu&Data Sources&DM_Main&DM_DataSource&Data Source
+submenu&Features&DM_Main&DM_Features&Features
+submenu&Displays&DM_Main&DM_Displays&Displays
+submenu&Query Features&DM_Main&DM_QueryFeatures&Query Features
+subpage&Genie Management&&DM_DesignForm&Design Form
+subpage&System Manager&&DM_SystemManagement&System_Management

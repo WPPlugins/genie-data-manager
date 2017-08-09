@@ -1,0 +1,7 @@
+type&WhereFormat&QueryFormat&FieldNameValue&FieldNameLabel&HtmlTag&Validators&DefaultValue
+integer&[@mapValue@]&[@mapValue@]&[@mapValue@]&[@mapValue@]&[@mapValue@]&&0
+string&'[@mapValue@]'&'[@mapValue@]'&[@mapValue@]&[@mapValue@]&[@mapValue@]&&
+text&'[@mapValue@]'&'[@mapValue@]'&[@mapValue@]&[@mapValue@]&[@mapValue@]&&  
+string&'[@mapValue@]'&'[@mapValue@]'&[@mapValue@]&[@mapValue@]&[@mapValue@]&&  
+boolean&[@mapValue@]&[@mapValue@]&[@mapValue@]&[@mapValue@]&[@mapValue@]&&0
+date&'[@mapValue@]'&'[@mapValue@]'&[@mapValue@]&[@mapValue@]&[@mapValue@]&&

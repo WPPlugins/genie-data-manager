@@ -1,0 +1,24 @@
+<h1>Dynamic Test</h1>
+<h2>Table Name</h2>
+<select name="tableName" id="tableName">
+            <option value="DMSysEntities" selected="selected">Entities</option>
+            <option value="DMSysDefinitions">Definitions</option>
+             <option value="DMSysForms">Forms</option> 
+             <option value="DMSysTranslations">Translations</option>    
+          </select>
+
+<h2>Form Type</h2>
+ <select name="formType" id="formType">
+            <option value="group" selected="selected">Group</option>
+            <option value="new">New</option>
+            <option value="search">Search</option>
+             <option value="filterRow">Filter</option>
+             <option value="newOne">NewOne</option>
+          </select>
+<input type="button"   onClick="return GetDefaultForms()" value="GetDefaultForms" />   
+
+<div id="GetFormTestResult">
+</div>
+
+
+

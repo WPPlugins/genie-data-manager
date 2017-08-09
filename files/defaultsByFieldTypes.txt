@@ -1,0 +1,5 @@
+Type&fieldName&name&type&input_type&valuesList&field_order&appear_on_group&is_id&is_must&search_type&helpTxt&classTxt&styleTxt&defaultValue&isFilterable&filterType&orderType&orderType&valuesTable&valuesValueField&valuesShowField&connectedFieldId&parentConnectingTable&parentFieldValueId&parentFieldConnectId&childFieldConnectId&defaultFilterValue&defaultQueryValue&isFormula&formula&isMatematic&isSystem&Permanent&IsConnected&ParentFieldId&ParentTableSource&ParentDataSourceConnector&ThisFeatureConnector&ParentFieldName&IsPartOfKey&IgnoreChanges&AddFieldFeature&FunctionFeature&AddCodeFeature
+int(11)&textField&textField&integer&text&&1&&& &equal&&&&& &Default&None&&&&&&&&&&&&&&&&&&&&&&&&&&&
+varchar(100)&textField&textField&string&text&&1&& & &equal&&&&&&Default&None&&&&&&&&&&&&&&&&&&&&&&&&&&&
+text&textAreaField&textAreaField&string&htmleditor&&1&& & &equal&&&&&&Default&None&&&&&&&&&&&&&&&&&&&&&&&&&&&
+bit(1)&checkBoxField&checkBoxField&boolean&checkbox&&1&& & &equal&&&&&&Default&None&&&&&&&&&&&&&&&&&&&&&&&&&&&

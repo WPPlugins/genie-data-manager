@@ -1,0 +1,21 @@
+BODY, TD {
+  
+}
+
+A {
+}
+
+A:Hover {
+}
+.DmTable
+{
+    display: table;
+}
+.DmRow
+{
+    display: table-row;
+}
+.DmCell
+{
+    display: table-cell;
+}

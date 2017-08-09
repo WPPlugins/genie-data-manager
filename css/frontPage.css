@@ -1,0 +1,1166 @@
+@font-face
+{
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.eot?') format('eot'),
+         url('../fonts/OpenSans-Bold.woff') format('woff'),
+         url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+}
+
+@font-face
+{
+    font-family: 'OpenSans-BoldItalic';
+    src: url('../fonts/OpenSans-BoldItalic.eot?') format('eot'),
+         url('../fonts/OpenSans-BoldItalic.woff') format('woff'),
+         url('../fonts/OpenSans-BoldItalic.ttf') format('truetype'),
+         url('../fonts/OpenSans-BoldItalic.svg#OpenSans-BoldItalic') format('svg');
+}
+
+@font-face
+{
+    font-family: 'OpenSans-Italic';
+    src: url('../fonts/OpenSans-Italic.eot?') format('eot'),
+         url('../fonts/OpenSans-Italic.woff') format('woff'),
+         url('../fonts/OpenSans-Italic.ttf') format('truetype'),
+         url('../fonts/OpenSans-Italic.svg#OpenSans-Italic') format('svg');
+}
+
+@font-face
+{
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light.eot?') format('eot'),
+         url('../fonts/OpenSans-Light.woff') format('woff'),
+         url('../fonts/OpenSans-Light.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+}
+
+@font-face
+{
+    font-family: 'OpenSans-LightItalic';
+    src: url('../fonts/OpenSans-LightItalic.eot?') format('eot'),
+         url('../fonts/OpenSans-LightItalic.woff') format('woff'),
+         url('../fonts/OpenSans-LightItalic.ttf') format('truetype'),
+         url('../fonts/OpenSans-LightItalic.svg#OpenSans-LightItalic') format('svg');
+}
+
+@font-face
+{
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular.eot?') format('eot'),
+         url('../fonts/OpenSans-Regular.woff') format('woff'),
+         url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+}
+
+.DM_AdminPanel
+{
+    font-family: OpenSans-Regular;
+    font-size: 24px;
+    margin: 24px;
+}
+.DM_Details
+{
+   position: inherit;
+    display: inline-table;
+    height: 100%;
+    top: 0px;
+    background: white;
+    width: 80%;
+    margin: 10px;
+    border-color: black;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    
+} 
+
+.DM_UserPanel
+{
+    font-family: OpenSans-Regular;
+    font-size: 24px;
+    margin: 24px;
+}
+
+.DM_Usertitle
+{
+    width: 190px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 12px;
+    color: rgb(172,222,228);
+    background-color: rgb(0,61,70);
+}
+
+.DM_left_column,
+.DM_right_column
+{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.DM_left_column > div,
+.DM_right_column > div
+{
+    width: 90%;
+    margin: 15px 0px;
+    border-bottom: 2px solid rgb(251,172,44);
+}
+
+.DM_first_box,
+.DM_setting_box,
+.DM_excerptdesign_box,
+.DM_design_box,
+.DM_fields_box
+{
+    
+}
+
+.DM_box_title
+{
+    color: #fff;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(18,140,155);
+}
+
+.DM_box_body
+{
+    font-size: 12px;
+    padding: 15px 25px 15px 25px;
+    background-color: rgb(255,240,215);
+}
+
+.DM_close_button
+{
+    width: 0px;
+    height: 0px;
+    float: right;
+    margin: 5px 0px;
+    cursor: pointer;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid rgb(255,240,215);
+    -moz-transition: all 0.DM_4s ease;
+    -webkit-transition: all 0.DM_4s ease;
+    -o-transition: all 0.DM_4s ease;
+    transition: all 0.DM_4s ease;
+}
+
+.DM_head_color
+{
+    color: rgb(18,140,155);
+   font-size: 13px;    
+}
+
+.DM_head_color a
+{
+      font-size: 14px;
+}
+.DM_top_bar
+{
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.DM_inline_p
+{
+    margin: 0px;
+    float: left;
+    line-height: 28px;
+}
+
+.DM_custom_select
+{
+    border: 0px;
+    min-width: 142px;
+    border-radius: 5px;
+    color: rgb(255,240,215);
+    padding: 2px 20px 2px 5px;
+    background: rgb(18,140,155) url(.DM_.DM_/images/arrows.DM_png) no-repeat;
+    background-position: right 5px top 6px;
+    font-family: OpenSans-Regular;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.DM_custom_text
+{
+    border: 0px;
+    min-width: 142px;
+    padding: 3px 5px;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: rgb(255,240,215);
+    background: rgb(18,140,155);
+    font-family: OpenSans-Regular;
+}
+
+
+.DM_custom_input_box img {
+border: none;
+max-width: 250px;
+}
+
+.DM_custom_button
+{
+    margin: 0px;
+    border: 0px !important;
+    color: #fff;
+    min-width: 142px;
+    padding: 5px 10px !important;
+    font-size: 14px !important;
+    border-radius: 5px !important;
+    font-family: OpenSans-Regular;
+    background-color: rgb(251,172,44) !important;
+    font-family: OpenSans-Regular;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-weight:300 !important;
+    text-transform: initial !important;
+}
+
+.DM_table_style
+{
+    width: 100%;
+    font-size: 12px;
+    margin: 10px 0px;
+    display: table
+}
+
+.DM_table_style>div
+{
+    display:table-row;
+    height: 25px;
+}
+.DM_table_style>div>div
+{
+    display:table-cell;
+    height: 25px;
+    width:20%;
+}
+
+.DM_table_style td:nth-child(4)
+{
+    text-align: right;
+}
+
+.DM_table_style td img
+{
+    margin: 0px 2px;
+}
+
+.DM_custom_page_button
+{
+    margin: 0px;
+    border: 0px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgb(255,240,215);
+    font-family: OpenSans-Regular;
+    background-color: rgb(18,140,155);
+}
+
+.DM_center
+{
+    text-align: center;
+}
+
+.DM_noborder
+{
+    border: 0px !important;
+}
+
+.DM_selected
+{
+    background-color: rgb(30,108,116) !important;
+}
+
+.DM_separator
+{
+    height: 15px;
+}
+
+#new_view
+{
+    margin-left: 25px;
+}
+
+.DM_custom_input_box
+{
+    display: table-cell;
+    width: 38%;
+}
+
+.DM_custom_input_box p
+{
+    margin: 0px;
+    width: 132px;
+    display: block;
+    padding: 0px 5px;
+    color: rgb(255,240,215);    
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgb(0,90,100);
+}
+
+.DM_custom_input_box div p
+{
+    margin: 0px;
+    background-color: inherit !important;
+    display: block;
+    padding: 0px 5px;
+    color:inherit;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+.DM_custom_input_box input
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px !important;
+    font-size: 11px;
+    padding: 2px 5px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_custom_input_box select
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px;
+    font-size: 11px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_input-control
+{
+    display: table-cell;
+    width: 20%;
+    font-size: 12px;
+}
+
+.DM_checkbox input
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    top: 2px;
+    width: 12px;
+    height: 16px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(18,140,155);
+    border: 2px solid rgb(255,240,215);
+    box-shadow: 0px 0px 0px 1px rgb(18,140,155);    
+}
+
+.DM_UserPanel input:checked
+{
+    background-color: rgb(0,90,100);
+    box-shadow: 0px 0px 0px 1px rgb(0,90,100);    
+}
+
+.DM_UserPanel input[type=checkbox]:checked:before {
+color: #FFFFFF !important;
+}
+
+.DM_checkbox input::-ms-expand {
+    display: none;
+}
+
+.DM_custom_input_box .mce-ico
+{
+    background-color: rgb(0,90,100) !important;
+    color: rgb(255,240,215) !important;
+}
+
+.DM_custom_input_box .mce-btn
+{
+    border: 0px !important;
+    background: rgb(0,90,100) !important;
+}
+
+.DM_custom_input_box  .mce-btn i
+{
+    text-shadow: 0px 0px !important;
+}
+
+.DM_custom_input_box  .mce-panel
+{
+    border: 0px !important;
+    background: transparent !important;
+}
+
+.DM_custom_input_box  .mce-first
+{
+    border-right: 1px solid rgb(255,240,215) !important;
+}
+
+.DM_custom_input_box  .mce-last
+{
+    border: 0px !important;
+}
+
+.DM_custom_input_box .mce-edit-area
+{
+    margin-top: 10px !important;
+}
+
+.DM_popup_box
+{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    z-index: 100;
+    display: none;
+}
+
+#addnewfield .DM_popup_background
+{
+    top: 105px;
+    left: 420px;
+    width: 470px;
+    padding-left: 7%;
+    padding-right: 7%;
+    border: 2px solid rgb(251,172,44);
+}
+
+#addnewfield .DM_popup_box_container
+{
+    width: 400px;
+    
+}
+
+#addnewfield .DM_custom_input_box
+{
+    width: 60%;
+}
+
+#editfield .DM_popup_background
+{
+    top: 210px;
+    left: 285px;
+    width: 470px;
+    
+}
+
+#editfield .DM_popup_box_container
+{
+    width: 400px;
+}
+
+#editfield .DM_custom_input_box
+{
+    width: 60%;
+}
+
+.DM_popup_background
+{
+    position: relative;
+    top: 150px;
+    width: 650px;
+    margin: auto;
+    padding: 25px 0px;
+    margin-bottom: 25px;
+    background-color: rgb(241,241,241);
+     padding-left: 7%;
+    padding-right: 7%;
+    border: 2px solid rgb(251,172,44);
+}
+
+.DM_popup_box_container
+{
+    width: 600px;
+    margin: 20px auto;
+    border-bottom: 2px solid rgb(251,172,44);
+}
+
+.DM_popup_box_container .DM_checkbox input
+{
+    top: 2px;
+}
+
+.DM_allwidth
+{
+    display: table;
+    width: 100% !important;
+}
+
+.DM_allwidth p
+{
+    width: 99%;
+}
+
+.DM_allwidth textarea
+{
+    margin: 0px;
+    width: 100%;
+    font-size: 11px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_button_center
+{
+    display: block;
+    margin: auto;
+}
+
+.DM_popup_close
+{
+    float: right;
+    margin-right: 10px;
+}
+
+.DM_UserPanel textarea
+{
+    width: 100%;
+}
+
+.DM_checkbox_container
+{
+    margin: 5px 30px;
+}
+
+.DM_checkbox_container .DM_input-control
+{
+    width: 145px;
+}
+
+.DM_UserPanel input[type="submit"]
+{
+    margin: 0px;
+    border: 0px;
+    color: #fff;
+    min-width: 142px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: OpenSans-Regular;
+    background-color: rgb(251,172,44);
+    display: block;
+    margin: auto;
+}
+
+.pagination ul li
+{
+    
+    width:80px;
+    margin: 0px;
+    border: 0px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgb(255,240,215);
+    font-family: OpenSans-Regular;
+    background-color: rgb(18,140,155);
+    float: left;
+    margin:6px;
+}
+
+.pagination ul li a
+{
+    color:white;
+}
+
+.pagination ul
+{
+        margin:auto;   
+}
+.pagination
+{
+    overflow:overlay;
+}
+
+.pagination .selected
+{
+     color: rgb(255,255,255);
+  background-color: rgb(5,120,135);
+  font-weight: 400;
+}
+
+.DM_successDiv
+{
+    color: green;
+    border: 1px solid rgb(43, 136, 77);
+    display: inline-block;    
+    font-size: 12px;
+    padding: 5px;
+    font-style: italic;
+}
+
+.DM_errorDiv
+{
+    color: red;
+    border: 1px solid rgb(255, 73, 27);
+    display: inline-block;
+   font-size: 12px;
+   padding: 5px;
+   font-style: italic;
+}
+
+.DM_helpDiv
+{
+    height:0; 
+    visibility: hidden;
+    position:absolute;   
+    background-color: rgb(74, 79, 80);
+    color: rgb(255,240,215);
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px; 
+    width:150px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.DM_5);
+    text-align: center;
+    z-index:99999;
+    margin:10px;
+}
+
+#DM_WaitDialog
+{
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px; 
+    width:50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    z-index:99999;
+    margin:10px;
+    background:  rgb(74, 79, 80) center;  
+}
+
+/*Blue*/
+
+
+.DM_custom_input_box.blue p
+{
+    margin: 0px;
+    width: 132px;
+    display: block;
+    padding: 0px 5px;
+    color: white;    
+    border-radius: 5px 5px 0px 0px;
+    background-color: #29ABE2;
+}
+
+.DM_box_title.blue
+{
+    color: #fff;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #0071BC;
+}
+
+.DM_box_body.blue {
+  font-size: 12px;
+  padding: 15px 25px 15px 25px;
+  background-color: #F0F0F0;
+}
+
+.DM_UserPanel.blue input[type="button"],.DM_UserPanel.blue input[type="submit"] {
+  margin: 0px;
+  border: 0px;
+  color: #fff;
+  min-width: 142px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-family: OpenSans-Regular;
+  background-color: #29ABE2;
+  display: block;
+  margin: auto;
+}
+
+.DM_checkbox.blue input
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    top: 2px;
+    width: 12px;
+    height: 16px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(18,140,155);
+    border: 2px solid #29ABE2;
+    box-shadow: 0px 0px 0px 1px rgb(18,140,155);    
+}
+
+
+.DM_custom_input_box.blue input
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px !important;
+    font-size: 11px;
+    padding: 2px 5px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_custom_input_box.blue select
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px !important;
+    font-size: 11px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_input-control.blue
+{
+    display: table-cell;
+    width: 20%;
+    font-size: 12px;
+}
+
+.DM_popup_box_container.blue {
+  width: 600px;
+  margin: 20px auto;
+  border-bottom: 2px solid #0071BC;
+}
+
+.pagination.blue ul li
+{
+    color: rgb(255,255,255);
+    background-color: #29ABE2;
+}
+
+
+
+.pagination.blue .selected
+{
+     color: rgb(255,255,255);
+  background-color: #0599FF !important;
+  font-weight: 400;
+}
+/*End Blue*/
+
+/*Violet*/
+
+
+.DM_custom_input_box.violet p
+{
+    margin: 0px;
+    width: 132px;
+    display: block;
+    padding: 0px 5px;
+    color: white;    
+    border-radius: 5px 5px 0px 0px;
+    background-color: #D65092;
+}
+
+.DM_box_title.violet
+{
+    color: #fff;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #6A3D59;;
+}
+
+.DM_box_body.violet {
+  font-size: 12px;
+  padding: 15px 25px 15px 25px;
+  background-color: #F8EBCA;
+}
+
+.DM_UserPanel.violet input[type="button"],.DM_UserPanel.violet input[type="submit"] {
+  margin: 0px;
+  border: 0px;
+  color: #fff;
+  min-width: 142px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-family: OpenSans-Regular;
+  background-color: #D65092;
+  display: block;
+  margin: auto;
+}
+
+.DM_checkbox.violet input
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    top: 2px;
+    width: 12px;
+    height: 16px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(18,140,155);
+    border: 2px solid #D65092;
+    box-shadow: 0px 0px 0px 1px rgb(18,140,155);    
+}
+
+
+.DM_custom_input_box.violet input
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px  !important;
+    font-size: 11px;
+    padding: 2px 5px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_custom_input_box.violet select
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px  !important;
+    font-size: 11px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_input-control.violet
+{
+    display: table-cell;
+    width: 20%;
+    font-size: 12px;
+}
+
+.DM_popup_box_container.violet {
+  width: 600px;
+  margin: 20px auto;
+  border-bottom: 2px solid #6A3D59;;
+}
+
+.pagination.violet ul li
+{
+    color: rgb(255,255,255);
+    background-color: #D65092;
+}
+
+
+
+.pagination.violet .selected
+{
+     color: rgb(255,255,255);
+  background-color: #A960AA !important;
+  font-weight: 400;
+}
+/*End Violet*/
+
+/*Violet*/
+
+
+.DM_custom_input_box.green p
+{
+    margin: 0px;
+    width: 132px;
+    display: block;
+    padding: 0px 5px;
+    color: white;    
+    border-radius: 5px 5px 0px 0px;
+    background-color: #88A94C;
+}
+
+.DM_box_title.green
+{
+    color: #fff;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #4C3D41;;
+}
+
+.DM_box_body.green {
+  font-size: 12px;
+  padding: 15px 25px 15px 25px;
+  background-color: #F2EDCD;
+}
+
+.DM_UserPanel.green input[type="button"],.DM_UserPanel.green input[type="submit"] {
+  margin: 0px;
+  border: 0px;
+  color: #fff;
+  min-width: 142px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-family: OpenSans-Regular;
+  background-color: #88A94C;
+  display: block;
+  margin: auto;
+}
+
+.DM_checkbox.green input
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    top: 2px;
+    width: 12px;
+    height: 16px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(18,140,155);
+    border: 2px solid #88A94C;
+    box-shadow: 0px 0px 0px 1px rgb(18,140,155);    
+}
+
+
+.DM_custom_input_box.green input
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px  !important;
+    font-size: 11px;
+    padding: 2px 5px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_custom_input_box.green select
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px !important;
+    font-size: 11px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_input-control.green
+{
+    display: table-cell;
+    width: 20%;
+    font-size: 12px;
+}
+
+.DM_popup_box_container.green {
+  width: 600px;
+  margin: 20px auto;
+  border-bottom: 2px solid #4C3D41;;
+}
+
+.pagination.green ul li
+{
+    color: rgb(255,255,255);
+    background-color: #88A94C;
+}
+
+
+
+.pagination.green .selected
+{
+     color: rgb(255,255,255);
+  background-color: #55AF4C !important;
+  font-weight: 400;
+}
+/*End Green*/
+
+
+/*Gray*/
+.DM_custom_input_box.gray p
+{
+    margin: 0px;
+    width: 132px;
+    display: block;
+    padding: 0px 5px;
+    color: white;    
+    border-radius: 5px 5px 0px 0px;
+    background-color: #6F6F6E;
+}
+
+.DM_box_title.gray
+{
+    color: #fff;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #575756;;
+}
+
+.DM_box_body.gray {
+  font-size: 12px;
+  padding: 15px 25px 15px 25px;
+  background-color: #ECECEC;
+}
+
+.DM_UserPanel.gray input[type="button"],.DM_UserPanel.gray input[type="submit"] {
+  margin: 0px;
+  border: 0px;
+  color: #fff;
+  min-width: 142px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-family: OpenSans-Regular;
+  background-color: #6F6F6E;
+  display: block;
+  margin: auto;
+}
+
+.DM_checkbox.gray input
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    top: 2px;
+    width: 12px;
+    height: 16px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(18,140,155);
+    border: 2px solid #6F6F6E;
+    box-shadow: 0px 0px 0px 1px rgb(18,140,155);    
+}
+
+
+.DM_custom_input_box.gray input
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px  !important;;
+    font-size: 11px;
+    padding: 2px 5px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_custom_input_box.gray select
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px  !important;
+    font-size: 11px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_input-control.gray
+{
+    display: table-cell;
+    width: 20%;
+    font-size: 12px;
+}
+
+.DM_popup_box_container.gray {
+  width: 600px;
+  margin: 20px auto;
+  border-bottom: 2px solid #575756;;
+}
+
+.pagination.gray ul li
+{
+    color: rgb(255,255,255);
+    background-color: #6F6F6E;
+}
+
+
+
+.pagination.gray .selected
+{
+     color: rgb(255,255,255);
+  background-color: #7A7A7F !important;
+  font-weight: 400;
+}
+/*End Gray*/
+
+/*White*/
+.DM_custom_input_box.white p
+{
+    margin: 0px;
+    width: 132px;
+    display: block;
+    padding: 0px 5px;
+    color: white;    
+    border-radius: 5px 5px 0px 0px;
+    background-color: #353533;
+}
+
+.DM_box_title.white
+{
+    color: #fff;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #252524;;
+}
+
+.DM_box_body.white {
+  font-size: 12px;
+  padding: 15px 25px 15px 25px;
+  background-color: #FFFFFF;
+}
+
+.DM_UserPanel.white input[type="button"],.DM_UserPanel.white input[type="submit"] {
+  margin: 0px;
+  border: 0px;
+  color: #fff;
+  min-width: 142px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-family: OpenSans-Regular;
+  background-color: #353533;
+  display: block;
+  margin: auto;
+}
+
+.DM_checkbox.white input
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    top: 2px;
+    width: 12px;
+    height: 16px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(18,140,155);
+    border: 2px solid #353533;
+    box-shadow: 0px 0px 0px 1px rgb(18,140,155);    
+}
+
+
+.DM_custom_input_box.white input
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px  !important;
+    font-size: 11px;
+    padding: 2px 5px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_custom_input_box.white select
+{
+    margin: 0px;
+    border: 0px;
+    width: 142px  !important;
+    font-size: 11px;
+    font-family: OpenSans-Regular;
+}
+
+.DM_input-control.white
+{
+    display: table-cell;
+    width: 20%;
+    font-size: 12px;
+}
+
+.DM_popup_box_container.white {
+  width: 600px;
+  margin: 20px auto;
+  border-bottom: 2px solid #252524;;
+}
+
+.pagination.white ul li
+{
+    color: rgb(255,255,255);
+    background-color: #353533;
+}
+
+
+
+.pagination.white .selected
+{
+     color: rgb(255,255,255);
+  background-color: #616156 !important;
+  font-weight: 400;
+}
+/*End White*/

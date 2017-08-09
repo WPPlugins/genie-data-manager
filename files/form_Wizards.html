@@ -1,0 +1,47 @@
+<div class="DM_AdminPanel">
+<div class="main_page">
+<div class="plugin_title">Portalic</div>
+<div class="left_column" style="width:70%;">
+<div class="fields_box">
+<div class="box_title">[@translate@]Create Data Source[@endtranslate@]</div>
+<div class="box_body">
+<div class="custom_input_box">
+  [@DM_GetTables@]</div>
+  <br/>
+ 
+ <input type="button"   onClick="return CreateDataSource()" value="[@translate@]Create Data Source[@endtranslate@]" /> 
+
+
+  
+ 
+    
+</div>
+ <br/>
+<div class="fields_box">
+<div class="box_title">[@translate@]Create Displays[@endtranslate@]</div>
+<div class="box_body">
+<div class="custom_input_box">
+  [@DM_GetSystemTables@]</div>
+  <br/>
+  
+<div  class="input-control checkbox" data-role="input-control">
+<label><input type="checkbox" id="createAddForm"><span class="check"></span>[@translate@]Create Add Display[@endtranslate@]</label>
+</div>
+<div  class="input-control checkbox" data-role="input-control">
+<label><input type="checkbox" id="createGroupForm"><span class="check"></span>[@translate@]Create Group Display[@endtranslate@]</label>  
+</div>
+<div  class="input-control checkbox" data-role="input-control">
+<label><input type="checkbox" id="createFilterForm"><span class="check"></span>[@translate@]Create Filter Display[@endtranslate@]</label>  
+</div> 
+<div  class="input-control checkbox" data-role="input-control">
+<label><input type="checkbox" id="createSchemeForm"><span class="check"></span>[@translate@]Create Scheme Display[@endtranslate@]</label>  
+</div>
+<br/>
+<input type="button"   onClick="return CreateDisplays()" value="[@translate@]Create Displays[@endtranslate@]" />    
+</div>
+
+<div id="FormTestResult"></div> 
+</div>
+</div>
+</div>
+</div>

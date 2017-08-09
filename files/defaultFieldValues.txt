@@ -1,0 +1,10 @@
+Type&fieldName&name&type&input_type&valuesList&field_order&appear_on_group&is_id&is_must&search_type&helpTxt&classTxt&styleTxt&defaultValue&isFilterable&filterType&orderType&orderType&valuesTable&valuesValueField&valuesShowField
+int(11)&textField&textField&integer&text&&1&&& &equal&&&&& &Default&None&&&&
+varchar(100)&textField&textField&string&text&&2&& & &equal&&&&&&Default&None&&&&
+text&textAreaField&textAreaField&string&textarea&&3&& & &equal&&&&&&Default&None&&&&
+bit(1)&checkBoxField&checkBoxField&boolean&checkbox&&7&& & &equal&&&&&&Default&None&&&&
+1&fileField&fileField&string&file&&8&& & &equal&&&&&&Default&None&&&&
+1&imageField&imageField&string&image&&9&& & &equal&&&&&&Default&None&&&&
+1&htmlEditorField&htmlEditorField&string&htmleditor&&4&& & &equal&&&&&&Default&None&&&&
+1&dropDownListField&dropDownListField&string&dropdownlist&&5&& & &equal&&&&&&Default&None&&&&
+1&radioField&radioField&string&radio&&6&& & &equal&&&&&&Default&None&&&&

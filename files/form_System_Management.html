@@ -1,0 +1,43 @@
+ <h1>System Management</h1>
+ 
+   <h2>Load Tables</h2>
+ <input type="button"   onClick="return LoadTablesFunction()" value="Load Tables" />
+ 
+ <br/>
+ 
+ 
+   <h2>Query Check</h2>
+ <input type="text" name="queryText" id="queryText" value=""/>
+ 
+  <select name="queryType" id="queryType">
+                        <option value="Results" selected="selected">Get Results</option>
+                        <option value="Execute">Execute</option>
+                        
+                        </select>
+ 
+ 
+  <input type="button"   onClick="return RunQuery()" value="Run Query" />   
+  
+  
+        
+  <h2>Query Results</h2>
+  <div id="QueryResult"></div>   
+  
+  
+   fileName: <input type="text" name="fileNameTxt" id="fileNameTxt" value=""/>
+  
+  <input type="button"   onClick="return SaveQueryToFile()" value="Save Query To File" />   
+  
+  
+  <input type="button"   onClick="return SaveSystemToFile()" value="Save System To File" /> 
+  
+    <input type="button"   onClick="return LoadSystemFromFile()" value="Load System From File" /> 
+  
+  <h2>Table Manipulation Check</h2>
+  <input type="text" name="tableNameText" id="tableNameText" value=""/> 
+   <input type="button"   onClick="return GetDefaultDefinitions()" value="Get default definitions" />   
+    <h3>Definitions Results</h3>
+    <div id="TableTestResult"></div>  
+    
+    <input type="button"   onClick="return GetDefaultForms()" value="Get default forms" />  
+    <div id="FormTestResult"></div>
